@@ -1,13 +1,14 @@
 from __future__ import print_function
 import tensorflow as tf
 
+
 a = tf.placeholder(tf.int16)
 b = tf.placeholder(tf.int16)
 
 add = tf.add(a,b)
 mul = tf.multiply(a,b)
 
-# # Same op?
+
 print(add)
 print(a + b)
 print(mul)
